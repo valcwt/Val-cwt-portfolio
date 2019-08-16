@@ -5,12 +5,14 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <!-- <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title>Portfolio | Développeur web | full-stack | Ruby on rails</title>
-    <link href="stylesheets/application-cb59311b.css" rel="stylesheet" />
+    <link href="stylesheets/application-c082512c.css" rel="stylesheet" />
     <script src="javascripts/application-27e0e9d3.js"></script>
     <link href="images/dev-anim11-4fc476cc.png" rel="icon" type="image/png" />
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link
@@ -32,6 +34,41 @@
 
 
 
+<div class="pos-f-t">
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
+
+
+      <h5 class="text-white h4"> <a href="#Presentation">Présentation</a></h5>
+      <h5 class="text-white h4"> <a href="#Realisation">Réalisation</a></h5>
+
+
+      <h5 class="text-white h4"> <a href="#services">Services</a></h5>
+
+
+      <h5 class="text-white h4"> <a href="#competences">Compétences</a></h5>
+
+
+     <h5 class="text-white h4"> <a href="#Parcours">Formation</a></h5>
+
+    <h5 class="text-white h4"> <a href="#Contact">Contact</a></h5>
+
+
+
+      <h5 class="text-white h4"> <a href="#cv">CV</a></h5>
+      <!-- <span class="text-muted"><a href="#cv">CV</a></span> -->
+    </div>
+  </div>
+  <nav id="heads"class="navbar  navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+
+      <span class="navbar-toggler-icon"></span>
+      MENU
+
+    </button>
+    <img src="images/dev-anim11-4fc476cc.png" class="navbar1" alt="Dev anim11" />
+
+ </nav>
 <!-- --------HEAD------------------------ -->
 
 <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('images/office-ff073455.jpg');">
@@ -157,8 +194,12 @@
  </section>
 
       <section class="cards-realisation ">
+<div class="container">
+  <div class="row">
+    <div class="col">
 
-<div class="cardds d-flex justify-content space-around">
+
+<div class="cardds">
     <div class="card-trip">
       <img src="images/VALPORT-a47cdaa7.png" alt="Valport" />
       <div class="card-trip-infos">
@@ -198,7 +239,9 @@
 
 </div>
 
-
+    </div>
+  </div>
+</div>
         <!-- ------------------------------------------------------------------- -->
        <!--  <div class="cards">
 
@@ -604,6 +647,11 @@
 </div>
 
 <!-- -----------------------------------------END--------------------------------------- -->
+
+<div class="container arrow">
+    <a href="#Compétences"><p><i class="far fa-arrow-alt-circle-up"></i></p></a>
+</div>
+
 <!-- -----------------------------------------Card Visite--------------------------------------- -->
 <section id="Contact" class="module">
 
@@ -765,7 +813,7 @@
 <!--
 ----------------------------------CARD CV------------------------------------------------------ -->
 
-<div class="background-color1">
+
   <section id="cv" class="module cv-link">
     <div class="container">
 
@@ -795,7 +843,13 @@
 
 
 
+<div class=" container arrow">
+    <a href="#Contact"><p><i class="far fa-arrow-alt-circle-up"></i></p></a>
+</div>
 
+<div class=" container arrow">
+    <a href="#Parcours"><p><i class="far fa-arrow-alt-circle-up"></i></p></a>
+</div>
 
 
 
@@ -820,7 +874,7 @@
 
 
 
-                  <div class="footer back-ground">
+                  <div id="end"class="footer back-ground">
                       <div class="footer-links">
                         <a href="https://github.com/valcwt"><i class="fab fa-github"></i></a>
                         <!-- <a href="#"><i class="fab fa-instagram"></i></a> -->
@@ -833,10 +887,18 @@
 
 
                       <div class="footer-copyright">
-                        <p>© Valentin Cauwet. Tous droits réservés</p>
+                        <p>© Valentin Cauwet.</p>
                       </div>
-                   </div>
+                      <div class="footer-copyright">
+                        <p>Tous droits réservés</p>
+                      </div>
 
+
+<a href="#heads">                      <img src="images/dev-anim11-4fc476cc.png" class="navbar1" alt="Dev anim11" />
+</a>                   </div>
+
+
+</div>
 
   </body>
 </html>
